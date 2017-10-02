@@ -6,4 +6,4 @@ services:
      volumes:
        - /var/run/docker.sock:/var/run/docker.sock
      environment:
-       - ROUTE_URIS=logstash+tcp://kibana.localhost:5001
+       - ROUTE_URIS=logstash+tcp://logstash.localhost:5001
